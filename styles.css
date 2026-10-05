@@ -229,9 +229,16 @@ h1 {
 }
 
 .button-arrow {
+  width: 17px;
+  height: 17px;
+  flex: 0 0 auto;
   margin-left: 10px;
   color: #cddaff;
-  font-size: 17px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.8;
 }
 
 .site-footer {
@@ -327,6 +334,8 @@ h1 {
   }
 
   .button-arrow {
+    width: 16px;
+    height: 16px;
     margin-left: 2px;
   }
 
