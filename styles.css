@@ -222,7 +222,7 @@ h1 {
   box-shadow: 0 13px 34px rgb(36 87 232 / 38%);
 }
 
-.primary-button svg {
+.primary-button svg:not(.button-arrow) {
   width: 18px;
   height: 18px;
   fill: currentColor;
